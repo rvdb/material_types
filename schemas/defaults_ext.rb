@@ -10,5 +10,7 @@
   "material_type_photographs" => {"type" => "boolean", "required" => false},
   "material_type_realia" => {"type" => "boolean", "required" => false},
   "material_type_serials" => {"type" => "boolean", "required" => false},
-
+  "material_type_paper" => {"type" => "boolean", "required" => false},
+  "material_type_objects" => {"type" => "boolean", "required" => false},
+  "material_type_born_digital" => {"type" => "boolean", "required" => false},
 }

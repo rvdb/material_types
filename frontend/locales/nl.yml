@@ -1,0 +1,58 @@
+nl:
+  plugins:
+    material_type: &material_type_attributes
+      label: Type materiaal
+      works_of_art: Kunstvoorwerpen
+      audiovisual_materials: Audiovisueel materiaal
+      books: Boeken
+      electronic_documents: Digitale documenten
+      games: Spellen
+      microforms: Microforms
+      maps: Kaarten
+      manuscripts: Manuscripten
+      photographs: Foto's
+      realia: Realia
+      serials: Reeksen
+      paper: Papier
+      objects: Objecten
+      born_digital: Digital born
+      preference_section: Aard van de materialen
+      _singular: Aard van de materialen
+      _plural: Aard van de materialen
+      _frontend:
+        action:
+          add: Voeg type materiaal toe
+    material_types:
+      <<: *material_type_attributes
+    defaults:
+      material_type_works_of_art: Kunstvoorwerpen
+      material_type_audiovisual_materials: Audiovisueel materiaal
+      material_type_books: Boeken
+      material_type_electronic_documents: Digitale documenten
+      material_type_games: Spellen
+      material_type_microforms: Microforms
+      material_type_maps: Kaarten
+      material_type_manuscripts: Manuscripten
+      material_type_photographs: Foto's
+      material_type_realia: Realia
+      material_type_serials: Reeksen
+      material_type_paper: Papier
+      material_type_objects: Objecten
+      material_type_born_digital: Digital born
+      material_type_preference_section: Type materiaal
+  advanced_search:
+    boolean:
+      material_type_works_of_art: Type materiaal - Kunstwerken?
+      material_type_audiovisual_materials: Type materiaal -Audiovisuele materialan?
+      material_type_books: Type materiaal - Boeken?
+      material_type_electronic_documents: Type materiaal - Digitale documenten?
+      material_type_games: Type materiaal - Spellen?
+      material_type_microforms: Type materiaal - Microforms?
+      material_type_maps: Type materiaal - Kaarten?
+      material_type_manuscripts: Type materiaal - Manuscripten?
+      material_type_photographs: Type materiaal - Foto's?
+      material_type_realia: Type materiaal - Realia?
+      material_type_serials: Type materiaal - Reeksen?
+      material_type_paper: Type materiaal - Papier?
+      material_type_objects: Type materiaal - Objecten?
+      material_type_born_digital: Type materiaal - Digital born?

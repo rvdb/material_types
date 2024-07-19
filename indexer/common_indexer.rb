@@ -15,6 +15,9 @@ class IndexerCommon
           doc['material_type_photographs_u_ubool'] = record['record']['material_types']['photographs']
           doc['material_type_realia_u_ubool'] = record['record']['material_types']['realia']
           doc['material_type_serials_u_ubool'] = record['record']['material_types']['serials']
+          doc['material_type_paper_u_ubool'] = record['record']['material_types']['paper']
+          doc['material_type_objects_u_ubool'] = record['record']['material_types']['objects']
+          doc['material_type_born_digital_u_ubool'] = record['record']['material_types']['born_digital']
         end
       end
     }

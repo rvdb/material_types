@@ -21,6 +21,9 @@ Sequel.migration do
       Integer :photographs
       Integer :realia
       Integer :serials
+      Integer :paper
+      Integer :objects
+      Integer :born_digital
 
       apply_mtime_columns
     end

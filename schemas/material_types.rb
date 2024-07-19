@@ -17,7 +17,9 @@
       "photographs" => {"type" => "boolean", "default" => false},
       "realia" => {"type" => "boolean", "default" => false},
       "serials" => {"type" => "boolean", "default" => false},
-
+      "paper" => {"type" => "boolean", "default" => false},
+      "objects" => {"type" => "boolean", "default" => false},
+      "born_digital" => {"type" => "boolean", "default" => false},
     },
   },
 }

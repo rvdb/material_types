@@ -13,6 +13,9 @@ en:
       photographs: Photographs
       realia: Realia
       serials: Serials
+      paper: Paper
+      objects: Objects
+      born_digital: Born Digital
       preference_section: Material Types
       _singular: Material Types
       _plural: Material Types
@@ -33,6 +36,9 @@ en:
       material_type_photographs: Photographs
       material_type_realia: Realia
       material_type_serials: Serials
+      material_type_paper: Paper
+      material_type_objects: Objects
+      material_type_born_digital: Born Digital
       material_type_preference_section: Material Types
   advanced_search:
     boolean:
@@ -47,3 +53,6 @@ en:
       material_type_photographs: Material Type - Photographs?
       material_type_realia: Material Type - Realia?
       material_type_serials: Material Type - Serials?
+      material_type_paper: Material Type - Paper?
+      material_type_objects: Material Type - Objects?
+      material_type_born_digital: Material Type - Born Digital?
